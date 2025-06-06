@@ -54,7 +54,7 @@ This project simulates the design and implementation of a secure small-to-medium
 ### Router Subinterfaces + ACL
 
 - **Subinterface Configuration:**  
-  ![Router Subinterfaces](screenshots/router_subinterfaces_acl.png)
+  ![Router Subinterfaces](screenshots/router_subinterfaces_ac1.png)
 
 - **ACL Hit Count (Verification):**  
   ![ACL Hit Counts](screenshots/acl_hit_counts.png)
