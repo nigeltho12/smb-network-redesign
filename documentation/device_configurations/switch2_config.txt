@@ -1,0 +1,21 @@
+! Cisco 2960-24TT Switch
+vlan 10
+ name Admin
+vlan 20
+ name Finance
+vlan 30
+ name HR
+vlan 40
+ name Guest
+!
+interface range fa0/1
+ switchport mode trunk
+!
+interface range fa0/2 - 3
+ switchport mode access
+ switchport access vlan 30
+!
+interface range fa0/4 - 6
+ switchport mode access
+ switchport access vlan 40
+!
